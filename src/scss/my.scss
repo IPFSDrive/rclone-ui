@@ -1,0 +1,103 @@
+.my-banner {
+  background-image: url("../assets/img/brand/my-banner.png");
+  background-size: 100% 100%;
+}
+
+.my-main {
+  background-color: #F5F5F5;
+}
+
+.my-cursor-hand a {
+  cursor: default;
+}
+
+.my-AppBreadcrumb {
+}
+
+// 右上角刷新
+.my-refresh {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding-top: 10px;
+  padding-right: 10px;
+}
+
+// 右上角刷新图标
+.my-refresh i {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+//面包屑背景颜色
+ol.breadcrumb {
+  background-color: #E8E8E9;
+}
+
+//左侧菜单背景颜色
+.sidebar ul.nav {
+  background-color: #374256;
+}
+
+// 左侧菜单,激活状态
+.sidebar .nav-link.active {
+  background-color: #636C7C;
+  color: white;
+}
+
+// 左侧菜单,项目高度
+.sidebar .nav-link {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.sidebar .my-version .nav-link {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.sidebar .nav-link {
+  font-size: 20px;
+  border-top: none;
+}
+
+// 左侧logo背景颜色
+.sidebar .sidebar-header {
+  background-color: #374256;
+}
+
+
+// 左侧logo
+.my-logo-size {
+  //width: 100px;
+}
+
+@media (min-width: 992px) {
+  $myLeftWidth: 160px;
+  .sidebar-fixed .sidebar {
+    width: $myLeftWidth;
+  }
+  .sidebar .nav {
+    width: $myLeftWidth;
+  }
+  .sidebar .sidebar-nav {
+    width: $myLeftWidth;
+  }
+
+  html:not([dir="rtl"]) .sidebar-lg-show.sidebar-fixed .main, html:not([dir="rtl"]) .sidebar-lg-show.sidebar-fixed .app-footer, html:not([dir="rtl"]) .sidebar-show.sidebar-fixed .main, html:not([dir="rtl"]) .sidebar-show.sidebar-fixed .app-footer {
+    margin-left: $myLeftWidth;
+  }
+}
+
+// 我的版本
+.my-version {
+  background-color: #374256;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6px 0;
+}
+
+.my-version a {
+  color: gray;
+}
