@@ -2,12 +2,13 @@ rclone-ui项目是IPFS Drive的GUI，登录 www.ipfsdrive.com 下载软件和查
 
 
 
+
 IPFS Drive是一个去中心化云盘/存储应用,帮助用户连接到Web3.stroage和Filswan等IPFS存储服务商，实现云盘/存储功能。
 
-# step1：克隆https://github.com/IPFSDrive/IPFS-drive项目到本地
+# step1：克隆https://github.com/IPFSDrive/IPFS-drive 项目到本地
 
 # step2：需要构建命令行 
-克隆https://github.com/IPFSDrive/IPFS-Drive-rclone项目
+克隆https://github.com/IPFSDrive/IPFS-Drive-rclone 项目
 在项目目录执行：
 
 go get
@@ -17,7 +18,7 @@ go build -tags cmount
 将产生的rclone.exe复制到ipfsdrive项目extra-resource发布版本对应目录，如:win64/下
   
 # step3:需要构建Webui
-克隆https://github.com/IPFSDrive/rclone-ui项目
+克隆https://github.com/IPFSDrive/rclone-ui 项目
 在项目目录执行：
 
 npm install
